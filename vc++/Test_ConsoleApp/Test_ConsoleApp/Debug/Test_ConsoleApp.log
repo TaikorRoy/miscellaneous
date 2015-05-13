@@ -1,0 +1,15 @@
+﻿Build started 5/7/2015 2:05:23 PM.
+     1>Project "C:\workspace\Github_MasterRepository\miscellaneous\vc++\Test_ConsoleApp\Test_ConsoleApp\Test_ConsoleApp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Test_ConsoleApp.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Test_ConsoleApp.cpp
+         Test_ConsoleApp.cpp
+     1>c:\workspace\github_masterrepository\miscellaneous\vc++\test_consoleapp\test_consoleapp\test_consoleapp.cpp(8): warning C4101: 'secondvalue' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspace\Github_MasterRepository\miscellaneous\vc++\Test_ConsoleApp\Debug\Test_ConsoleApp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\workspace\Github_MasterRepository\miscellaneous\vc++\Test_ConsoleApp\Debug\Test_ConsoleApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\workspace\Github_MasterRepository\miscellaneous\vc++\Test_ConsoleApp\Debug\Test_ConsoleApp.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\Test_ConsoleApp.obj
+         Test_ConsoleApp.vcxproj -> C:\workspace\Github_MasterRepository\miscellaneous\vc++\Test_ConsoleApp\Debug\Test_ConsoleApp.exe
+     1>Done Building Project "C:\workspace\Github_MasterRepository\miscellaneous\vc++\Test_ConsoleApp\Test_ConsoleApp\Test_ConsoleApp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:01.97
