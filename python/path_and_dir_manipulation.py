@@ -11,3 +11,12 @@ try:
 		libsvm = CDLL(path.join(dirname, r'..\windows\libsvm.dll'))
 	else:
 		libsvm = CDLL(path.join(dirname, '../libsvm.so.2'))
+  
+def folder_parser(folder_path):
+    file_names = os.listdir(folder_path)
+    dirname = os.path.dirname(folder_path)
+    files = list()
+    for file_name in file_names:
+        files.append(os.path.join(dirname, file_name))
+    return files
+        
