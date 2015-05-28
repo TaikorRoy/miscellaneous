@@ -1,33 +1,23 @@
-// Test_ConsoleApp.cpp : Defines the entry point for the console application.
-//
-
-
+// obtaining file size
 #include <iostream>
-#include <algorithm>
 #include <fstream>
 #include <string>
-
 using namespace std;
-int main()
-  {
-  // This is where we'll put the stuff we read from file
-  char buffer[ 81 ];
 
-  // Here's our file
-  ifstream file( "test.txt" );
+namespace test
+{
+   string string_a = "test name space";
+}
 
-  // Fill the buffer with zeros (char strings must be null-terminated)
-  fill_n( buffer, 81, '\0' );
-
-  // Read as many as 80 bytes (chars) from the file and stick them in our array
-  file.read( buffer, 80 );
-
-  file.close();
-
-  // Convert that char array into a STL string, and show the user what we got.
-  string s( buffer );
-  cout << s << endl;
-
+int main () {
+  streampos begin,end;
+  ifstream myfile ("example.bin", ios::binary);
+  begin = myfile.tellg();
+  myfile.seekg (0, ios::end);
+  end = myfile.tellg();
+  myfile.close();
+  cout << "size is: " << (end-begin) << " bytes.\n";
+  cout << test::string_a;
   return 0;
-  }
+}
 
