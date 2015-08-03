@@ -1,0 +1,32 @@
+﻿Build started 6/12/2015 5:31:58 PM.
+     1>Project "C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Windows\App1.Windows.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Windows\ /I"Generated Files\\" /IDebug\ /IC:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Shared\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\App1.Windows.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Shared\pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Windows\ /I"Generated Files\\" /IDebug\ /IC:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Shared\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\App1.Windows.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Shared\App.xaml.cpp MainPage.xaml.cpp "Generated Files\XamlTypeInfo.Impl.g.cpp"
+         App.xaml.cpp
+         MainPage.xaml.cpp
+         XamlTypeInfo.Impl.g.cpp
+       CreateWinMD:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\Debug\App1.Windows\App1.Windows.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\Debug\App1.Windows\App1.Windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\Debug\App1.Windows\App1.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\pch.obj
+         Debug\MainPage.xaml.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+       CompileXamlGeneratedFiles:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Windows\ /I"Generated Files\\" /IDebug\ /IC:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Shared\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\App1.Windows.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\Debug\App1.Windows\App1.Windows.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\Debug\App1.Windows\App1.Windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\Debug\App1.Windows\App1.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\pch.obj
+         Debug\MainPage.xaml.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+         Debug\XamlTypeInfo.g.obj
+            Creating library C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\Debug\App1.Windows\App1.Windows.lib and object C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\Debug\App1.Windows\App1.Windows.exp
+         App1.Windows.vcxproj -> C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\Debug\App1.Windows\App1.Windows.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakePri.exe New -ProjectRoot C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Windows\ -ConfigXml Debug\priconfig.xml -OutputFile C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\Debug\App1.Windows\resources.pri -IndexName 28b60d88-4d6f-4a5f-bca5-868da6f6b1d2 -Verbose -Overwrite  
+     1>Done Building Project "C:\workspace\Github_MasterRepository\miscellaneous\vc++\windows_app\App1\App1\App1.Windows\App1.Windows.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.35

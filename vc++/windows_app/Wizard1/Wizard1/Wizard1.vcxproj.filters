@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{5e266756-ac95-4719-9494-99eb4e96683a}</UniqueIdentifier>
+      <Extensions>txt</Extensions>
+    </Filter>
+    <Filter Include="HTML Files">
+      <UniqueIdentifier>{f8687c78-82f6-4b78-9fcc-f1ba10ca03f2}</UniqueIdentifier>
+      <Extensions>htm</Extensions>
+    </Filter>
+    <Filter Include="Image Files">
+      <UniqueIdentifier>{2e69e9d4-dd51-4a71-8663-12fae7ca6ba5}</UniqueIdentifier>
+      <Extensions>bmp</Extensions>
+    </Filter>
+    <Filter Include="Script Files">
+      <UniqueIdentifier>{2499a97e-ea17-454b-9459-10424caac12f}</UniqueIdentifier>
+      <Extensions>js</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{7c50fcb7-f543-41a9-9ce9-602c4e90b44e}</UniqueIdentifier>
+      <Extensions>vsz;vsdir;ico;vcxproj;csproj;css;inf</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Templates\1033\ReadMe.txt">
+      <Filter>Template Files</Filter>
+    </Text>
+    <Text Include="Templates\1033\Sample.txt">
+      <Filter>Template Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Templates\1033\Templates.inf">
+      <Filter>Miscellaneous Files</Filter>
+    </None>
+    <None Include="Wizard1.vsz">
+      <Filter>Miscellaneous Files</Filter>
+    </None>
+    <None Include="Scripts\1033\default.js">
+      <Filter>Script Files</Filter>
+    </None>
+    <None Include="default.vcxproj">
+      <Filter>Miscellaneous Files</Filter>
+    </None>
+    <None Include="Wizard1.vsdir">
+      <Filter>Miscellaneous Files</Filter>
+    </None>
+    <None Include="HTML\1033\default.htm">
+      <Filter>HTML Files</Filter>
+    </None>
+    <None Include="1033\NewStyles.css">
+      <Filter>Miscellaneous Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Wizard1.ico">
+      <Filter>Miscellaneous Files</Filter>
+    </Image>
+    <Image Include="Images\Wizard1.gif" />
+    <Image Include="Images\Wizard1_Background.gif" />
+    <Image Include="1033\Images\DottedHori.gif" />
+    <Image Include="1033\Images\DottedVert.gif" />
+    <Image Include="1033\Images\spacer.gif" />
+  </ItemGroup>
+</Project>
