@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/com/roy_scala/util/IO.scala" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/roy_scala/util/json.scala" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/roy_scala/util/mil.scala" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

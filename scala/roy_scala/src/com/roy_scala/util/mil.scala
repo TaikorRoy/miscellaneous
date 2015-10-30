@@ -7,7 +7,4 @@ package com.roy_scala.util
 object mil {
   val ele_print = (x:String) => println(x)
 
-  def print_iters(x: Some) {
-
-  }
 }
