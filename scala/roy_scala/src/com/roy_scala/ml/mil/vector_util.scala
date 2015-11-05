@@ -1,14 +1,10 @@
 package com.roy_scala.ml.mil
-
+import scala.math
 /**
  * Created by roy on 2015/10/28.
  */
-class cosine_similarity {
-import scala.math
-/**
- * Created by rao on 15-11-1.
- */
-object cosine {
+
+object vector_util {
   def dot_product(x:Array[Float], y:Array[Float]):Float = {
     var array_len = x.length
     var result:Float = 0f
@@ -40,7 +36,5 @@ object cosine {
     val result = dot_prod/(vector_norm(x) * vector_norm(y))
     result
   }
-}
-
 
 }
