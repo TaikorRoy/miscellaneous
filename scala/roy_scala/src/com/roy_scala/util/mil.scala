@@ -5,6 +5,14 @@ package com.roy_scala.util
  */
 
 object mil {
-  val ele_print = (x:String) => println(x)
+  def strip_all(rm_chars:Array[String], tar_str:String):String = {
+    var target = tar_str
+    var arr_len = rm_chars.length;
+    while (arr_len >= 1){
+      target = target.replace(rm_chars(arr_len-1), "")
+      arr_len -= 1
+    }
+    target
+  }
 
 }

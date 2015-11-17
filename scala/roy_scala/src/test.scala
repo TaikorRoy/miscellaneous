@@ -1,8 +1,14 @@
 import com.roy_scala.ml.d_cluster.d_cluster
 import com.roy_scala.util.mil
+import com.roy_scala.util.json
 import com.roy_scala.util.IO
 import com.roy_scala.ml.d_cluster
-import com.roy_scala.util.json
+import play.api.libs.json.JsValue
+
+// import com.roy_scala.util.json
+import com.roy_scala.ml.mil.collection
+import com.roy_scala.ml.mil.vector_util
+
 
 /**
  * Created by roy on 2015/10/26.
@@ -10,23 +16,9 @@ import com.roy_scala.util.json
 
 object test {
   def main(args: Array[String]):Unit = {
-    /*
-    val my_list = List("a", "b", "c")
-  val my_array = my_list.mkString("OK", "X", "bbb")
-  println(my_array)
-    val folder_path = "D:\\workspace\\SimplyBrand\\palas_svm\\corpos\\百科"
-    val files = IO.FileIO.listFiles(folder_path)
-    for (file <- files)
-      println(file.getAbsolutePath)
-    */
 
-    val json_path = "C:\\Users\\roy\\Desktop\\test_scala_fileio.txt"
     /*
-    val json_obj = json.parse_json_from_file(json_path) match {
-      case List => json.parse_json_from_file(json_path)
-      case other => println("JSON Related Error Occured")
-    }
-    */
+    val json_path = "C:\\Users\\roy\\Desktop\\test_scala_fileio.txt"
 
     val json_obj = json.parse_json_from_file(json_path)
     println(json_obj.toString)
@@ -41,7 +33,13 @@ object test {
     val d_cluster = new d_cluster(data, threshold, kernel)
     d_cluster.test_integrity()
     val clu = d_cluster.clustering()
-    println(clu.deep.mkString(" "))
+    */
+
+
+    val a = Map("token" -> "c", "content" -> "bbb")
+    val b = List(List(1,2,333),2,Map("a"->2))
+    val m_str = json.json_dumps(b)
+    println(m_str)
 
   }
 }

@@ -1,5 +1,5 @@
 package com.roy_scala.ml.mil
-import scala.math
+
 /**
  * Created by roy on 2015/10/28.
  */
@@ -9,7 +9,7 @@ object vector_util {
     var array_len = x.length
     var result:Float = 0f
     var buffer:Float = 0f
-    while (array_len >= 0)
+    while (array_len >= 1)
       {
         buffer = x(array_len-1) * y(array_len-1)
         result += buffer
@@ -22,7 +22,7 @@ object vector_util {
     var array_len = x.length
     var result:Float = 0f
     var buffer:Float = 0f
-    while (array_len >= 0)
+    while (array_len >= 1)
       {
         buffer = x(array_len-1) * x(array_len-1)
         result += buffer
